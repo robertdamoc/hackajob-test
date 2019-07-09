@@ -9,13 +9,19 @@
   <meta name="author" content="Robert Damoc">
 
   <link rel="stylesheet" href="css/style.css?v=1.0">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div id="news"></div>
+  <div id="news-wrap">
+    <h1>Here are the latest News</h1>
+    <ol id="news" type="1"></ol>
+    <p id="loading"></p>
+    <a id="more" href="#">More...</a>
+  </div>
 
-  <script src="js/vanilla.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.timeago.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
